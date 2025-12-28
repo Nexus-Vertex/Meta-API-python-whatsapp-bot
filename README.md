@@ -45,7 +45,6 @@ Before starting, make sure you have:
 
 Recommended project structure:
 
-```text
 whatsapp-bot/
 ├── webhook.py             # Main file to start Flask server
 ├── requirements.txt       # Python dependencies
@@ -55,66 +54,54 @@ whatsapp-bot/
 ├── .env                   # Environment variables
 └── README.md              # Documentation
 
-Setup & Installation
-1️⃣ Clone the repository
-bash
+## Setup & Installation
+
+### 1️⃣ Clone the repository
 Copier le code
 git clone https://github.com/YOUR_USERNAME/whatsapp-bot.git
 cd whatsapp-bot
 
-2️⃣ Install dependencies
-bash
+### 2️⃣ Install dependencies
+
 Copier le code
 pip install -r requirements.txt
 Environment Variables
 Create a .env file in the root folder:
 
-env
-Copier le code
-APP_ID=your_app_id_here
-APP_SECRET=your_app_secret_here
-ACCESS_TOKEN=your_access_token_here
-VERIFY_TOKEN=your_verify_token_here
-RECIPIENT_WAID=your_test_number_here
-VERSION=v18.0
-OPENAI_API_KEY=your_openai_api_key
-OPENAI_ASSISTANT_ID=your_assistant_id
-Variables explanation
-Variable	Description
-APP_ID	WhatsApp Business App ID
-APP_SECRET	App secret from Meta
-ACCESS_TOKEN	WhatsApp API token
-VERIFY_TOKEN	Webhook verification token
-RECIPIENT_WAID	Test WhatsApp number
-VERSION	Meta Graph API version
-OPENAI_API_KEY	OpenAI API key
-OPENAI_ASSISTANT_ID	OpenAI Assistant ID
+#### env
 
-Running the App
+ACCESS_TOKEN=  "your_access_token_here"
+APP_SECRET=  "your_app_secret_here"
+VERIFY_TOKEN=  "your_verify_token_here"
+APP_ID=  "your_app_id_here"
+
+
+#### Running the App
 Start the Flask server locally:
 
-bash
-Copier le code
+#### Copier le code
 python run.py
 Server will run on:
 👉 http://localhost:8000/
 
-Ngrok & Webhook Integration
-1️⃣ Install ngrok
+## Ngrok & Webhook Integration
+### 1️⃣ Install ngrok
 👉 https://ngrok.com/download
 
-2️⃣ Authenticate ngrok
-bash
-Copier le code
+### 2️⃣ Authenticate ngrok
+
+#### Copier le code
 ngrok authtoken YOUR_AUTH_TOKEN
-3️⃣ Expose your local server
-bash
-Copier le code
+
+### 3️⃣ Expose your local server
+
+#### Copier le code
 ngrok http 8000 --domain your-domain.ngrok-free.app
-4️⃣ Configure Webhook in Meta Dashboard
+
+### 4️⃣ Configure Webhook in Meta Dashboard
 Go to WhatsApp → Configuration
 
-Callback URL:
+#### Callback URL:
 
 arduino
 Copier le code
@@ -127,7 +114,7 @@ Click Test
 
 ✅ Webhook is now connected.
 
-Testing the Bot
+## Testing the Bot
 Add your test number to WhatsApp contacts
 
 Send a message to the bot
@@ -139,58 +126,18 @@ Copier le code
 Received message: {"from": "...", "text": "..."}
 By default, the bot replies with uppercase text.
 
-AI Integration
-Update generate_response() in whatsapp_utils.py
+## References
 
-Configure OpenAI in openai_service.py
+- **WhatsApp Cloud API**
+👉 https://developers.facebook.com/docs/whatsapp
 
-Set OpenAI keys in .env
+- **OpenAI API**
+👉 https://platform.openai.com/docs
 
-Call AI inside process_whatsapp_message()
+- **Ngrok**
+👉 https://ngrok.com/docs
 
-📌 The bot can now reply intelligently using AI.
+- **YouTube Tutorials**
+👉 https://www.youtube.com/@daveebbelaar
 
-Add Your Phone Number
-For production use:
-
-Add a real phone number in Meta Dashboard
-
-Migrate existing numbers if needed
-
-Safe testing options:
-New SIM card
-
-Virtual phone number
-
-Secondary device
-
-Security Notes
-Verify webhook using hub.verify_token
-
-Validate X-Hub-Signature-256 with APP_SECRET
-
-Accept requests only from Meta servers
-
-Tips for Production
-Use a VPS or cloud server
-
-Use long-lived access tokens
-
-Secure .env file
-
-Enable logging & monitoring
-
-Keep dependencies updated
-
-References
-WhatsApp Cloud API
-https://developers.facebook.com/docs/whatsapp
-
-OpenAI API
-https://platform.openai.com/docs
-
-Ngrok
-https://ngrok.com/docs
-
-YouTube Tutorials
-https://www.youtube.com/@daveebbelaar
+Note:
