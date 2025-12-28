@@ -19,10 +19,10 @@ app = Flask(__name__)
 DB_PATH = "database.db"
 
 # --- Config WhatsApp API ---
-ACCESS_TOKEN = 'EAAcpBl4ari8BPBZBTkfLUWP2ppzBz9naZClrgeZCD2zvaY08shcF693mheGKGIzuJvN8VrZAJD9FQZAc0KV92DZAcdkJzoT2ns14tkc6Yxe3az6DWTSV3OAEiW6dt5k7erZCMYWIDzS1qaF2bwZAK5nwnNLXizQ1QDfpy625AffctcFLwSlxxDfZAxLnGWRuo'
-PHONE_NUMBER_ID = '686677367864905'
+ACCESS_TOKEN = "your_access_token_here"
+APP_SECRET =  "your_app_secret_here"
 API_URL = f"https://graph.facebook.com/v18.0/{PHONE_NUMBER_ID}/messages"
-VERIFY_TOKEN = "token"
+VERIFY_TOKEN = "your_verify_token_here"
 
 # ------------------ إعداد logging ------------------
 logging.basicConfig(
