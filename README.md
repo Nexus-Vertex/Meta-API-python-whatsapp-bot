@@ -47,21 +47,21 @@ Recommended project structure:
 
 ```text
 whatsapp-bot/
-├── run.py                 # Main file to start Flask server
+├── webhook.py             # Main file to start Flask server
 ├── requirements.txt       # Python dependencies
-├── whatsapp_utils.py      # Functions to handle WhatsApp messages
-├── openai_service.py      # AI response integration
-├── security.py            # Webhook verification & security
-├── sessions.txt           # (Optional) user sessions
+├── utils.py               # Functions to handle WhatsApp messages
+├── update_excel_realtime.py      # Functions to handle WhatsApp messages
 ├── database.db            # (Optional) SQLite database
 ├── .env                   # Environment variables
 └── README.md              # Documentation
+
 Setup & Installation
 1️⃣ Clone the repository
 bash
 Copier le code
 git clone https://github.com/YOUR_USERNAME/whatsapp-bot.git
 cd whatsapp-bot
+
 2️⃣ Install dependencies
 bash
 Copier le code
@@ -194,11 +194,3 @@ https://ngrok.com/docs
 
 YouTube Tutorials
 https://www.youtube.com/@daveebbelaar
-
-💡 Note:
-This README is written as a full user guide, ready to be copied directly into GitHub README.md.
-
-yaml
-Copier le code
-
----
