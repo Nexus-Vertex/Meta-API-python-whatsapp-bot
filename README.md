@@ -55,6 +55,16 @@ Before starting, make sure you have:
 - **YouTube Tutorials**
 👉 https://www.youtube.com/@daveebbelaar
 
+## 🇩🇪 Hinweis
+
+Dieses Projekt wurde eigenständig entwickelt, um grundlegende und praxisnahe Kenntnisse in den Bereichen
+Softwareentwicklung, Python, APIs, Webhooks und Backend-Logik zu demonstrieren.
+
+Die im Projekt verwendeten Beispiele und Produkte wurden bewusst ausgewählt, um verschiedene Funktionen, Abläufe und technische Konzepte praktisch zu testen und zu verstehen. Sie dienen ausschließlich Lern- und Demonstrationszwecken.
+
+Der Fokus liegt nicht auf einem marktreifen Produkt, sondern auf dem Verständnis technischer Zusammenhänge, einer klaren Projektstruktur sowie einer nachvollziehbaren und sauberen Implementierung.
+
+Dieses Repository stellt einen praktischen Nachweis meiner Motivation, Eigeninitiative und technischen Grundlagen dar.
 
 ## Project Structure
 
