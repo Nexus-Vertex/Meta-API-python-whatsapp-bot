@@ -11,8 +11,7 @@ This guide walks you **step-by-step**, from initial setup to AI integration, jus
 
 The WhatsApp bot developed in Python using the Meta WhatsApp Cloud API is connected to VELO STOR.
 
-- **👉 Link to the VELO STOR store (demo/testing purposes):**
-https://github.com/Nexus-Vertex/.-VELO-STOR-Online-Store-Web-Project
+- **👉 Link to the VELO STOR store (demo/testing purposes):** https://github.com/Nexus-Vertex/.-VELO-STOR-Online-Store-Web-Project
 
 ### The bot enables:
 
