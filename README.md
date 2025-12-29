@@ -99,3 +99,8 @@ Der Fokus liegt nicht auf einem marktreifen Produkt, sondern auf dem Verständni
 
 Dieses Repository stellt einen praktischen Nachweis meiner Motivation, Eigeninitiative und technischen Grundlagen dar.
 
+# This project is part of a series of practical experiments, including:
+
+- **VELO STOR – Online Store:** 👉 https://github.com/Nexus-Vertex/.-VELO-STOR-Online-Store-Web-Project
+
+- **Anomaly Detection Program:** 👉 https://github.com/Nexus-Vertex/Anomaly-Detection-System
