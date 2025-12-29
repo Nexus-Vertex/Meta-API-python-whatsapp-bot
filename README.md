@@ -41,6 +41,22 @@ Before starting, make sure you have:
 
 ---
 
+## Project Structure
+
+Recommended project structure:
+
+```bash
+whatsapp-bot/
+├── webhook.py       # Main file to start Flask server
+├── requirements.txt # Python dependencies
+├── utils.py         # Functions to handle WhatsApp messages
+├── update_excel_realtime.py # Functions to update Excel in real-time
+├── database.db      # (Optional) SQLite database
+├── .env             # Environment variables
+└── README.md        # Documentation
+
+---
+```
 ## References
 
 - **WhatsApp Cloud API**
@@ -66,18 +82,3 @@ Der Fokus liegt nicht auf einem marktreifen Produkt, sondern auf dem Verständni
 
 Dieses Repository stellt einen praktischen Nachweis meiner Motivation, Eigeninitiative und technischen Grundlagen dar.
 
-## Project Structure
-
-Recommended project structure:
-
-```bash
-whatsapp-bot/
-├── webhook.py       # Main file to start Flask server
-├── requirements.txt # Python dependencies
-├── utils.py         # Functions to handle WhatsApp messages
-├── update_excel_realtime.py # Functions to update Excel in real-time
-├── database.db      # (Optional) SQLite database
-├── .env             # Environment variables
-└── README.md        # Documentation
-
----
