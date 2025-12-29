@@ -89,7 +89,7 @@ whatsapp-bot/
 - **YouTube Tutorials**
 👉 https://www.youtube.com/@daveebbelaar
 
-## 🇩🇪 Hinweis
+## Hinweis
 
 Dieses Projekt wurde eigenständig entwickelt, um grundlegende und praxisnahe Kenntnisse in den Bereichen
 Softwareentwicklung, Python, APIs, Webhooks und Backend-Logik zu demonstrieren.
