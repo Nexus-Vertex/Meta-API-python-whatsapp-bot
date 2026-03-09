@@ -1,6 +1,6 @@
 # WhatsApp AI Bot with Python & Flask 🤖📱
 
-![Alexandra Banner](https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,100:2E4057&height=200&section=header&text=Alexandra%20AI%20Voice%20Assistant&fontSize=40&fontColor=FFFFFF&animation=fadeIn)
+![WhatsApp Bot Banner](https://capsule-render.vercel.app/api?type=waving&color=0:075E54,100:25D366&height=200&text=WhatsApp%20AI%20Bot&fontSize=40&fontColor=fff&animation=fadeIn&desc=Python%20%26%20Flask&descSize=20)
 
 This project demonstrates how to build a WhatsApp bot using the **Meta (Facebook) Cloud API**, **Python**, and **Flask**.  
 The bot supports real-time messaging via webhooks and can generate **AI-powered responses using OpenAI**.
