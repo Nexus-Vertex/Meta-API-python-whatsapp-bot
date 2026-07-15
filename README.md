@@ -1,4 +1,4 @@
-# WhatsApp AI Bot with Python & Flask 🤖📱
+# WhatsApp AI Bot with Python & Flask 
 
 <h1 align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&pause=1000&color=25D366&center=true&width=600&lines=WhatsApp+AI+Bot+🤖;Python+%26+Flask+%2B+OpenAI" alt="Typing SVG">
