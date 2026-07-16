@@ -32,15 +32,6 @@ The WhatsApp bot developed in Python using the Meta WhatsApp Cloud API is connec
 
 - [Prerequisites](#prerequisites)
 - [Project Structure](#project-structure)
-- [Setup & Installation](#setup--installation)
-- [Environment Variables](#environment-variables)
-- [Running the App](#running-the-app)
-- [Ngrok & Webhook Integration](#ngrok--webhook-integration)
-- [Testing the Bot](#testing-the-bot)
-- [AI Integration](#ai-integration)
-- [Add Your Phone Number](#add-your-phone-number)
-- [Security Notes](#security-notes)
-- [Tips for Production](#tips-for-production)
 - [References](#references)
 
 ---
