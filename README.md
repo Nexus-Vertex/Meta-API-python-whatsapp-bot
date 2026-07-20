@@ -11,25 +11,34 @@ This guide walks you **step-by-step**, from initial setup to AI integration, jus
 
 ---
 
-## 🔗 Integration with VELO STOR
+## 📸 Screenshots
 
+<p align="center">
+  <img src="./screenshots/Image1.jpg" width="180" alt="Chat example 1"/>
+  <img src="./screenshots/Image2.jpg" width="180" alt="Chat example 2"/>
+  <img src="./screenshots/Image3.jpg" width="180" alt="Chat example 3"/>
+  <img src="./screenshots/Image4.jpg" width="180" alt="Chat example 4"/>
+</p>
+<p align="center">
+  <img src="./screenshots/Image5.jpg" width="180" alt="Chat example 5"/>
+</p>
+
+👉 **[View all screenshots](./screenshots)**
+
+---
+
+## 🔗 Integration with VELO STOR
 The WhatsApp bot developed in Python using the Meta WhatsApp Cloud API is connected to VELO STOR.
 
 - **👉 Link to the VELO STOR store (demo/testing purposes):** https://github.com/Nexus-Vertex/.-VELO-STOR-Online-Store-Web-Project
 
 ### The bot enables:
-
 - **Presentation of store products**
-
 - **Navigation using conversational logic**
-
 - **Automated customer responses**
-
 - **Simulation of a WhatsApp-based customer service experience**
 
-
 ## 📑 Table of Contents
-
 - [Prerequisites](#prerequisites)
 - [Project Structure](#project-structure)
 - [References](#references)
@@ -37,26 +46,19 @@ The WhatsApp bot developed in Python using the Meta WhatsApp Cloud API is connec
 ---
 
 ## Prerequisites
-
 Before starting, make sure you have:
-
 - **Meta Developer Account**  
   👉 https://developers.facebook.com/
-
 - **WhatsApp Business App**  
   👉 https://developers.facebook.com/apps/
-
 - **Python 3.10+** installed on your system  
   👉 https://www.python.org/downloads/
-
 - Basic knowledge of **Python**, **Flask**, and **HTTP APIs**
 
 ---
 
 ## Project Structure
-
 Recommended project structure:
-
 ```bash
 whatsapp-bot/
 ├── webhook.py       # Main file to start Flask server
@@ -66,25 +68,21 @@ whatsapp-bot/
 ├── database.db      # (Optional) SQLite database
 ├── .env             # Environment variables
 └── README.md        # Documentation
+```
 
 ---
-```
-## References
 
+## References
 - **WhatsApp Cloud API**
 👉 https://developers.facebook.com/docs/whatsapp
-
 - **OpenAI API**
 👉 https://platform.openai.com/docs
-
 - **Ngrok**
 👉 https://ngrok.com/docs
-
 - **YouTube Tutorials**
 👉 https://www.youtube.com/@daveebbelaar
 
 ## Hinweis
-
 Dieses Projekt wurde eigenständig entwickelt, um grundlegende und praxisnahe Kenntnisse in den Bereichen
 Softwareentwicklung, Python, APIs, Webhooks und Backend-Logik zu demonstrieren.
 
@@ -95,7 +93,5 @@ Der Fokus liegt nicht auf einem marktreifen Produkt, sondern auf dem Verständni
 Dieses Repository stellt einen praktischen Nachweis meiner Motivation, Eigeninitiative und technischen Grundlagen dar.
 
 # This project is part of a series of practical experiments, including:
-
 - **VELO STOR – Online Store:** 👉 https://github.com/Nexus-Vertex/.-VELO-STOR-Online-Store-Web-Project
-
 - **Anomaly Detection Program:** 👉 https://github.com/Nexus-Vertex/Anomaly-Detection-System
