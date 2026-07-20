@@ -14,11 +14,12 @@ This guide walks you **step-by-step**, from initial setup to AI integration, jus
 ## 📸 Screenshots
 
 <p align="center">
+  <img src="./screenshots/Image5.jpg" width="150" alt="Chat example 5"/>
   <img src="./screenshots/Image1.jpg" width="150" alt="Chat example 1"/>
   <img src="./screenshots/Image2.jpg" width="150" alt="Chat example 2"/>
   <img src="./screenshots/Image3.jpg" width="150" alt="Chat example 3"/>
+  <img src="./screenshots/Image1.jpg" width="150" alt="Chat example 1"/>
   <img src="./screenshots/Image4.jpg" width="150" alt="Chat example 4"/>
-  <img src="./screenshots/Image5.jpg" width="150" alt="Chat example 5"/>
 </p>
 
 👉 **[View all screenshots](./screenshots)**
